@@ -32,6 +32,15 @@ body {
   width: 300px;
   height: 400px;
 }
+.middle {
+  position: absolute;
+  top: 0;
+  left: 20%;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+}
 
 h1 {
   margin: 0 0 20px 0;
@@ -160,3 +169,49 @@ button.social-signin.twitter {
 button.social-signin.google {
   background: #DD4B39;
 }
+
+.wrapper {
+    -webkit-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -moz-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -o-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -ms-transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1); }
+
+.menu-on-left .navbar-brand {
+    float: right;
+    margin-right: 0;
+    margin-left: 1rem; }
+
+.nav-open .wrapper {
+    -webkit-transform: translate3d(-150px, 0, 0);
+    -moz-transform: translate3d(-150px, 0, 0);
+    -o-transform: translate3d(-150px, 0, 0);
+    -ms-transform: translate3d(-150px, 0, 0);
+    transform: translate3d(-150px, 0, 0); }
+.nav-open .navbar-translate {
+    -webkit-transform: translate3d(-300px, 0, 0);
+    -moz-transform: translate3d(-300px, 0, 0);
+    -o-transform: translate3d(-300px, 0, 0);
+    -ms-transform: translate3d(-300px, 0, 0);
+    transform: translate3d(-300px, 0, 0); }
+.nav-open .menu-on-left .navbar-collapse {
+    -webkit-transform: translate3d(0px, 0, 0);
+    -moz-transform: translate3d(0px, 0, 0);
+    -o-transform: translate3d(0px, 0, 0);
+    -ms-transform: translate3d(0px, 0, 0);
+    transform: translate3d(0px, 0, 0); }
+.nav-open .menu-on-left .navbar-translate {
+    -webkit-transform: translate3d(300px, 0, 0);
+    -moz-transform: translate3d(300px, 0, 0);
+    -o-transform: translate3d(300px, 0, 0);
+    -ms-transform: translate3d(300px, 0, 0);
+    transform: translate3d(300px, 0, 0); }
+.nav-open .menu-on-left .wrapper {
+    -webkit-transform: translate3d(150px, 0, 0);
+    -moz-transform: translate3d(150px, 0, 0);
+    -o-transform: translate3d(150px, 0, 0);
+    -ms-transform: translate3d(150px, 0, 0);
+    transform: translate3d(150px, 0, 0); }
+ .nav-open .menu-on-left #bodyClick {
+    right: auto;
+    left: 300px; }
