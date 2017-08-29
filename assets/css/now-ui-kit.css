@@ -925,10 +925,10 @@
   top: 1px; }
 
 .btn-primary {
-  background-color: #f96332;
+  background-color: #1DBA76;
   color: #FFFFFF; }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary:active:focus, .btn-primary:active:hover, .btn-primary.active:focus, .btn-primary.active:hover, .open > .btn-primary.dropdown-toggle, .open > .btn-primary.dropdown-toggle:focus, .open > .btn-primary.dropdown-toggle:hover {
-  background-color: #f85019;
+  background-color: #10945b;
   color: #FFFFFF; }
 .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary:disabled, .btn-primary:disabled:hover, .btn-primary:disabled:focus, .btn-primary:disabled.focus, .btn-primary:disabled:active, .btn-primary:disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled].focus, .btn-primary[disabled]:active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active {
   background-color: #f96332;
@@ -3016,7 +3016,7 @@ Created using IcoMoon - icomoon.io
   margin-top: 35px; }
 
 .profile-page .page-header {
-  min-height: 640px;}
+  min-height: 550px; }
 .profile-page .profile-container {
   color: #FFFFFF; }
 .profile-page .photo-container {
