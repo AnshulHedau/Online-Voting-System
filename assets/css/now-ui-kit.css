@@ -1177,7 +1177,7 @@
   background-color: transparent;
   border: 1px solid #E3E3E3;
   border-radius: 30px;
-  color: #2c2c2c;
+  color: #e7eff3;
   line-height: 1em;
   font-size: 0.8571em;
   -webkit-transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
@@ -3016,7 +3016,7 @@ Created using IcoMoon - icomoon.io
   margin-top: 35px; }
 
 .profile-page .page-header {
-  min-height: 550px; }
+  min-height: 640px;}
 .profile-page .profile-container {
   color: #FFFFFF; }
 .profile-page .photo-container {
