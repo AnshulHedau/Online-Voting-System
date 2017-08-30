@@ -3950,7 +3950,9 @@ Created using IcoMoon - icomoon.io
 
   .footer .copyright {
     text-align: center; }
-
+   .center-copyright	{
+   	text-align: center;
+   }
   .section-nucleo-icons .icons-container i {
     font-size: 30px; }
   .section-nucleo-icons .icons-container i:nth-child(6) {
