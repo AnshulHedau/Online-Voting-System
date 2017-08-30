@@ -6,7 +6,7 @@
     <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
     <link rel="icon" type="image/png" href="./assets/img/favicon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>Online Voting</title>
+    <title>Now Ui Kit by Creative Tim</title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
     <!--     Fonts and icons     -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
@@ -16,8 +16,6 @@
     <link href="./assets/css/now-ui-kit.css" rel="stylesheet" />
     <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="./assets/css/demo.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
 </head>
 <body class="index-page">
 <!-- Navbar -->
@@ -38,16 +36,21 @@
                     <li class="nav-item">
                         <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
                             <i class="now-ui-icons arrows-1_cloud-download-93"></i>
-                            <p>Download</p>
+                            <p>About Us</p>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./documentation/tutorial-components.html" target="_blank">
+                        <a class="nav-link" href="./home.html" target="_blank">
                             <i class="now-ui-icons files_paper"></i>
-                            <p>Login</p>
+                            <p>Home</p>
                         </a>
                     </li>
-                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="./admin_login.html" target="_blank">
+                            <i class="now-ui-icons files_paper"></i>
+                            <p>Admin</p>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -57,39 +60,12 @@
             <div class="page-header-image" data-parallax="true" style="background-image: url('./assets/img/header.jpg');">
             </div>
             <div class="container">
-               
-                    
-                    <div class="form-group" >
-                         
-                        <div class="row" style="padding-top: 20%">
-                            <div class="col-lg-4 col-md-8 col-lg-offset-4 col-md-offset-2a">
-                            </div>
-                            <div class="col-lg-4 col-md-12" >
-                                <h1>Log in</h1>
-                                <div class="content">
-                                    <div class="input-group form-group-no-border input-lg">
-                                        <span class="input-group-addon">
-                                            <i class="material-icons" style="color:white">account_circle</i>
-                                        </span>
-                                        <input type="text" class="form-control" placeholder="First Name...">
-                                    </div>
-                                    <div class="input-group form-group-no-border input-lg" >
-                                        <span class="input-group-addon">
-                                            <i class="material-icons" style="color:white">lock</i>
-                                        </span>   
-                                        <input type="password" placeholder="Password..." class="form-control" />
-                                    </div>
-                                </div>
-                                
-                               <!--<input type="text" class="form-control" name="username" placeholder="Username" value="">
-                                <br>
-                                <input type="password" name="password" class="form-control" placeholder="Password" value="">-->
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <button class="btn btn-primary btn-round" name="signup_submit" value="Sign me up">Login</button>
-
+                <div class="content-center brand">
+                    <img class="n-logo" src="./assets/img/now-logo.png" alt="">
+                    <h1 class="">National Voting System</h1>
+                    <h3>VOTE for a better INDIA</h3>
+                    <a href="./login.html" class="btn btn-primary btn-lg btn-round" style="background-color: #1DBA76">Let's Vote</a>
+                </div>
             </div>
         </div>
         <div class="wrapper">
@@ -98,35 +74,26 @@
             <div class="container">
                 <nav>
                     <ul>
-                        <li>
-                            <a href="https://www.creative-tim.com">
-                                Creative Tim
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://presentation.creative-tim.com">
-                                About Us
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://blog.creative-tim.com">
-                                Blog
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/creativetimofficial/now-ui-kit/blob/master/LICENSE.md">
-                                MIT License
-                            </a>
-                        </li>
+                        <li>Current Time : </li>
+                        <li id="demo2"></li>
+                        
                     </ul>
                 </nav>
+                <script> 
+                    var myVar=setInterval(function(){myTimer()},1000); 
+                    function myTimer() { 
+                        var d = new Date();
+                        document.getElementById("demo2").innerHTML= d.toLocaleTimeString();
+
+                        } 
+                </script> 
                 <div class="copyright">
                     &copy;
                     <script>
                         document.write(new Date().getFullYear())
-                    </script>, Designed by
-                    <a href="http://www.invisionapp.com" target="_blank">Invision</a>. Coded by
-                    <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>.
+                    </script>, Designed and Coded by
+                    <a href="https://github.com/AnshulHedau" target="_blank">Anshul Hedau</a>. and
+                    <a href="https://github.com/AnshulHedau" target="_blank">Sharad Jha</a>.
                 </div>
             </div>
         </footer>

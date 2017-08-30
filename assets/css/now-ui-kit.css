@@ -1677,9 +1677,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400; }
 
 a {
-  color: #f96332; }
+  color: #1dba76; }
 a:hover, a:focus {
-  color: #f96332; }
+  color: #1dba76; }
 
 h1, .h1 {
   font-size: 3.5em;
@@ -3016,7 +3016,7 @@ Created using IcoMoon - icomoon.io
   margin-top: 35px; }
 
 .profile-page .page-header {
-  min-height: 550px; }
+  min-height: 700px; }
 .profile-page .profile-container {
   color: #FFFFFF; }
 .profile-page .photo-container {

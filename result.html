@@ -6,7 +6,7 @@
     <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
     <link rel="icon" type="image/png" href="./assets/img/favicon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>Now Ui Kit by Creative Tim</title>
+    <title>Online Voting</title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
     <!--     Fonts and icons     -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
@@ -14,7 +14,6 @@
     <!-- CSS Files -->
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
     <link href="./assets/css/now-ui-kit.css" rel="stylesheet" />
-    <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="./assets/css/demo.css" rel="stylesheet" />
 </head>
 <body class="index-page">
@@ -27,7 +26,7 @@
                     <span class="navbar-toggler-bar bar2"></span>
                     <span class="navbar-toggler-bar bar3"></span>
                 </button>
-                <a class="navbar-brand" href="http://demos.creative-tim.com/now-ui-kit/index.html" rel="tooltip" title="Designed and Developed by Anshul and Sharad" data-placement="bottom" target="_blank">
+                <a class="navbar-brand" href="#" rel="tooltip" title="Designed and Developed by Anshul and Sharad" data-placement="bottom" target="_blank">
                     National Voting System
                 </a>
             </div>
@@ -36,31 +35,19 @@
                     <li class="nav-item">
                         <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
                             <i class="now-ui-icons arrows-1_cloud-download-93"></i>
-                            <p>Download</p>
+                            <p>About Us</p>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./documentation/tutorial-components.html" target="_blank">
+                        <a class="nav-link" href="./home.html" target="_blank">
                             <i class="now-ui-icons files_paper"></i>
-                            <p>Login</p>
+                            <p>Home</p>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/CreativeTim" target="_blank">
-                            <i class="fa fa-twitter"></i>
-                            <p class="hidden-lg-up">Twitter</p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/CreativeTim" target="_blank">
-                            <i class="fa fa-facebook-square"></i>
-                            <p class="hidden-lg-up">Facebook</p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/CreativeTimOfficial" target="_blank">
-                            <i class="fa fa-instagram"></i>
-                            <p class="hidden-lg-up">Instagram</p>
+                        <a class="nav-link" href="./admin_login.html" target="_blank">
+                            <i class="now-ui-icons files_paper"></i>
+                            <p>Admin</p>
                         </a>
                     </li>
                 </ul>
@@ -141,6 +128,34 @@
         </div>
         <div class="wrapper">
         </div>
+        
+        <footer class="footer">
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li>Current Time : </li>
+                        <li id="demo2"></li>
+                        
+                    </ul>
+                </nav>
+                <script> 
+                    var myVar=setInterval(function(){myTimer()},1000); 
+                    function myTimer() { 
+                        var d = new Date();
+                        document.getElementById("demo2").innerHTML= d.toLocaleTimeString();
+
+                        } 
+                </script> 
+                <div class="copyright">
+                    &copy;
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script>, Designed and Coded by
+                    <a href="https://github.com/AnshulHedau" target="_blank">Anshul Hedau</a>. and
+                    <a href="https://github.com/AnshulHedau" target="_blank">Sharad Jha</a>.
+                </div>
+            </div>
+        </footer>
      </div>
 </body>
 <!--   Core JS Files   -->
