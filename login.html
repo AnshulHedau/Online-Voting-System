@@ -1,25 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8" />
-    <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
-    <link rel="icon" type="image/png" href="./assets/img/favicon.png">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>Online Voting</title>
-    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
-    <!--     Fonts and icons     -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
-    <!-- CSS Files -->
-    <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="./assets/css/now-ui-kit.css" rel="stylesheet" />
-    <!-- CSS Just for demo purpose, don't include it in your project -->
-    <link href="./assets/css/demo.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"  rel="stylesheet">
-</head>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
+        <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <title>Online Voting</title>
+        <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+        <!--     Fonts and icons     -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+        <!-- CSS Files -->
+        <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="./assets/css/now-ui-kit.css" rel="stylesheet" />
+        <!-- CSS Just for demo purpose, don't include it in your project -->
+        <link href="./assets/css/demo.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
 <body class="index-page">
-<!-- Navbar -->
     <nav class="navbar navbar-toggleable-md bg-primary fixed-top navbar-transparent " color-on-scroll="500">
         <div class="container">
             <div class="navbar-translate">
@@ -29,13 +27,11 @@
                     <span class="navbar-toggler-bar bar3"></span>
                 </button>
                 <a class="navbar-brand" href="#" rel="tooltip" title="Designed and Developed by Anshul and Sharad" data-placement="bottom" target="_blank">
-
                     National Voting System
                 </a>
             </div>
             <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="./assets/img/blurred-image-1.jpg">
                 <ul class="navbar-nav">
-
                     <li class="nav-item">
                         <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
                             <i class="now-ui-icons arrows-1_cloud-download-93"></i>
@@ -63,58 +59,32 @@
             <div class="page-header-image" data-parallax="true" style="background-image: url('./assets/img/header.jpg');">
             </div>
             <div class="container">
-               
-                    
                     <div class="form-group" >
-                        <div class="row" style="padding-top: 15%">
-                            
-                            <div class="col-lg-12"><h1>Admin Panel<br></h1></div>
-                            
-                            <div class="col-lg-2 col-md-2 col-sm-3" style="border: 1px white solid;border-radius: 50px;">
-                                <br><br>
-                                <h6>Add Voters</h6>
-                                <input class="btn btn-primary btn-round round" type="submit" name="Declare" value="Add Voters" />
-                                <br><br><br>
-                                <h6>Voter List</h6>
-                                <input class="btn btn-primary btn-round" type="submit" name="View" value="Voter List" />
+                        <div class="row" style="padding-top: 20%">
+                            <div class="col-lg-4 col-md-8 col-lg-offset-4 col-md-offset-2a">
                             </div>
-                            <div class="col-lg-2 col-md-2 col-sm-1"></div>
-                            <div class=" col-lg-4 col-md-6" style="color: white">
-                                <h2>Voter's Profile</h2>
+                            <div class="col-lg-4 col-md-12" >
+                                <h1>Log in</h1>
                                 <div class="content">
                                     <div class="input-group form-group-no-border input-lg">
                                         <span class="input-group-addon">
                                             <i class="material-icons" style="color:white">account_circle</i>
                                         </span>
-                                        <input type="text" name="name" class="form-control" placeholder="Name...">
+                                        <input type="text" class="form-control" placeholder="First Name...">
                                     </div>
                                     <div class="input-group form-group-no-border input-lg" >
                                         <span class="input-group-addon">
                                             <i class="material-icons" style="color:white">lock</i>
                                         </span>   
-                                        <input type="text"  name="image" class="form-control" placeholder="Image Link" />
-                                    </div>
-                                    <div class="input-group form-group-no-border input-lg" >
-                                        <span class="input-group-addon">
-                                            <i class="material-icons" style="color:white">lock</i>
-                                        </span>   
-                                        <input type="num"  name="candidate_id" class="form-control" placeholder="Candidate id" />
+                                        <input type="password" placeholder="Password..." class="form-control" />
                                     </div>
                                 </div>
-                                <input type="submit" name="signup_submit" class="btn btn-primary btn-round " value="Add Candidate" />
-
-                            </div>
-                            <div class="col-lg-2 col-md-2 col-sm-1"></div>
-                            <div class="col-lg-2 col-md-2 col-sm-3" style="border: 1px white solid;;border-radius: 50px;">
-                                <br><br>
-                                <h6>Declare Result</h6>
-                                <input class="btn btn-primary btn-round round" type="submit" name="Declare" value="Declare Result" />
-                                <br><br><br>
-                                <h6>Candidates List</h6>
-                                <input class="btn btn-primary btn-round" type="submit" name="View" value="Candidate List" />
                             </div>
                         </div>
                     </div>
+                    <br>
+                    <button class="btn btn-primary btn-round" name="signup_submit" value="Sign me up">Login</button>
+
             </div>
         </div>
         <div class="wrapper">
@@ -158,14 +128,11 @@
 <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
 <!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
 <script src="./assets/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
-<!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
 <script src="./assets/js/now-ui-kit.js" type="text/javascript"></script>
 <script type="text/javascript">
     $(document).ready(function() {
-        // the body of this function is in assets/js/now-ui-kit.js
         nowuiKit.initSliders();
     });
-
     function scrollToDownload() {
 
         if ($('.section-download').length != 0) {
@@ -175,6 +142,5 @@
         }
     }
 </script>
-
 
 </html>
