@@ -2056,7 +2056,7 @@ body {
   background-color: #B8B8B8 !important; }
 
 .bg-primary {
-  background-color: #f96332 !important; }
+  background-color: #1DBA76 !important; }
 
 .bg-info {
   background-color: #2CA8FF !important; }
@@ -2885,7 +2885,7 @@ Created using IcoMoon - icomoon.io
 
 .card {
   border: 0;
-  border-radius: 0.1875rem;
+  border-radius: 40px;
   display: inline-block;
   position: relative;
   overflow: hidden;
@@ -2893,7 +2893,7 @@ Created using IcoMoon - icomoon.io
   margin-bottom: 20px;
   box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2); }
 .card .card-block {
-  min-height: 190px; }
+  min-height: 100px; }
 .card[data-background-color="orange"] {
   background-color: #f96332; }
 .card[data-background-color="red"] {
@@ -2975,7 +2975,8 @@ Created using IcoMoon - icomoon.io
   content: " "; }
 
 .index-page .page-header {
-  height: 125vh; }
+  height:125vh; 
+}
 .index-page .page-header .container > .content-center {
   top: 37%; }
 .index-page .page-header .category-absolute {
@@ -3192,7 +3193,7 @@ Created using IcoMoon - icomoon.io
   padding-top: 20vh; }
 
 .page-header {
-  height: 100vh;
+  height: 960px;// 100vh;
   max-height: 1050px;
   padding: 0;
   color: #FFFFFF;
@@ -3209,6 +3210,7 @@ Created using IcoMoon - icomoon.io
 .page-header footer {
   position: absolute;
   bottom: 0;
+  margin-top: 0;
   width: 100%; }
 .page-header .container {
   height: 100%;
@@ -3262,6 +3264,17 @@ Created using IcoMoon - icomoon.io
   background: -moz-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(29,186,118,0.6));
   /* For Firefox 3.6 to 15 */
   background: linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(29,186,118,0.6));
+  /* Standard syntax */ }
+  .page-header[filter-color="purple"] {
+  	background: rgba(227, 227, 227, 0.26);
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(90deg, rgba(227, 227, 227, 0.26), rgba(249, 99, 50, 0.95));
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(90deg, rgba(227, 227, 227, 0.26), rgba(249, 99, 50, 0.95));
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(90deg, rgba(227, 227, 227, 0.26), rgba(249, 99, 50, 0.95));
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(0deg, rgba(227, 227, 227, 0.26), rgba(249, 99, 50, 0.95));
   /* Standard syntax */ }
 .page-header .container {
   z-index: 2; }
