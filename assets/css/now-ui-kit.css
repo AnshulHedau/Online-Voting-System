@@ -1593,6 +1593,10 @@ textarea.form-control:focus, textarea.form-control:active {
   border-color: #2CA8FF;
   color: #2CA8FF; }
 
+.badge-white {
+  border-color: #fff;
+  color: #fff; }
+
 .badge-success {
   border-color: #18ce0f;
   color: #18ce0f; }
@@ -2216,7 +2220,7 @@ body {
 
 .alert {
   border: 0;
-  border-radius: 0;
+  border-radius: 20px;
   color: #FFFFFF;
   padding-top: .9rem;
   padding-bottom: .9rem; }
@@ -2230,6 +2234,9 @@ body {
   background-color: rgba(44, 168, 255, 0.8); }
 .alert.alert-primary {
   background-color: rgba(249, 99, 50, 0.8); }
+  .alert.alert-primary-green {
+   background-color: rgba(29, 186, 118, 0.8)
+   }
 .alert .alert-icon {
   display: block;
   float: left;
