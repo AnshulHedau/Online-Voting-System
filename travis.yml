@@ -1,4 +1,6 @@
-language: php
+install:
+  - ./bin/ci/install_dependencies.sh
+  - php vendor/vendors.phplanguage: php
 
 
 
