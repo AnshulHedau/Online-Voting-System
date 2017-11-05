@@ -35,8 +35,7 @@
                     <script>
                         document.write(new Date().getFullYear())
                     </script>, Designed and Coded by
-                    <a href="https://github.com/AnshulHedau" target="_blank">Anshul Hedau</a>. and
-                    <a href="https://github.com/AnshulHedau" target="_blank">Sharad Jha</a>.
+                    <a href="https://github.com/AnshulHedau" target="_blank">Anshul Hedau</a>.
                 </div>
             </div>
         </footer>
