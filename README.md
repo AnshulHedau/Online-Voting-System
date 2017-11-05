@@ -15,3 +15,6 @@ offices or anywhere and anytime.
 The website was designed successfully with the help of HTML, CSS, 
 JAVASCRIPT and BOOTSTRAP and AJAX for the front end and PHP 
 for the backend. The Bootstap used is based on the creative tim UI Kit.
+
+## Project can be viewed at
+URL Link - http://onlinevoting.gearhostpreview.com/
