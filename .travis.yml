@@ -42,9 +42,5 @@
     "fast_finish": true
   },
   "env": "WP_VERSION=master WP_MULTISITE=1",
-  "before_install": [
-    "WP_CORE_DIR=/tmp/wordpress/",
-    "if [[ \"$WP_TRAVISCI\" == \"travis:phpunit\" ]]; then pwd\n    mysql -e \"CREATE DATABASE wordpress_tests;\" -uroot\n    cp tests/wp-tests-config-sample.php tests/wp-tests-config.php\n    sed -i \"s/pdb/wordpress_tests/\" tests/wp-tests-config.php\n    sed -i \"s/pdbuser/travis/\" tests/wp-tests-config.php\n    sed -i \"s/04-3J31cd08k5B//\" tests/wp-tests-config.php\n    \nfi\n"
-  ],
-  "script": "phpunit -c tests/phpunit.xml.dist"
+  
 }
