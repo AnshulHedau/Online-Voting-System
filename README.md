@@ -1,4 +1,4 @@
-# Online-Voting-System
+ # Online-Voting-System
 Online National Election System is a dynamic website designed for the 
 welfare of common people of this country. It would have voter registration 
 and login as well. The voter shall login with the voter id which will lead 
@@ -28,25 +28,25 @@ In this page the admin shall be able to add the candidate as well as the voter d
 ### Voter Registration 
 In this page the voter shall be able register by inserting the details like voter-id, date of birth, mob number, address, and email-id and can upload the image as well. 
 
-###Voter Login 
+### Voter Login 
 In this page the voter shall be able to login by inserting the details such as login id and password. Voter Profile 
  
-###Voter Profile 
+### Voter Profile 
 The voter shall be able to view his profile where his date of birth, eligibility, and age and profile pic will also be displayed. From this page the voter shall be able to start voting. Once the elections get over the voter can view the results and cannot vote more than once. The option to vote will be removed as soon as the results are declared. 
  
-###Voter’s List 
+### Voter’s List 
 In this page the list of voters shall be displayed where admin has the power to delete the voter from the voting list. When the admin clicks on details all the details of voter shall be displayed 
  
-###Candidates List 
+### Candidates List 
 In this page we are displaying the list of candidates who are eligible and are standing in the current election. The candidates can be deleted and the details of the candidate can also be viewed 
  
-###Ballot Page 
+### Ballot Page 
 The ballot page will help the voters to choose the candidate of choice. Various candidates those who are eligible in the election.  
  
-###Vote count Page 
+### Vote count Page 
 In this page we are displaying the count of votes which each candidate has got after the elections are conducted.  
  
-###Result Page 
+### Result Page 
 In this page we are displaying the winner of the elections in which a congratulatory message is displayed along with the name of the winner.  
 
 ## Project can be viewed at
