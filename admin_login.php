@@ -124,33 +124,7 @@
                 </div>
             </div>
             <div class="col-sm-12">
-                <footer class="footer">
-            <div class="container center-copyright">
-                <nav>
-                    <ul>
-                        <li>Current Time : </li>
-                        <a href="#"><li id="demo2"></li></a>
-
-                    </ul>
-                </nav>
-                <script>
-                    var myVar=setInterval(function(){myTimer()},1000);
-                    function myTimer() {
-                        var d = new Date();
-                        document.getElementById("demo2").innerHTML= d.toLocaleTimeString();
-
-                        }
-                </script>
-                <div class="copyright">
-                    &copy;
-                    <script>
-                        document.write(new Date().getFullYear())
-                    </script>, Designed and Coded by
-                    <a href="https://github.com/AnshulHedau" target="_blank">Anshul Hedau</a>. and
-                    <a href="https://github.com/AnshulHedau" target="_blank">Sharad Jha</a>.
-                </div>
-            </div>
-        </footer>
+                <?php include("footer.php");
             </div>
         </div>
     </div>
