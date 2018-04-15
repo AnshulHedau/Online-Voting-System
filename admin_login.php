@@ -124,7 +124,7 @@
                 </div>
             </div>
             <div class="col-sm-12">
-                <?php include("footer.php");
+                <?php include("footer.php");?>
             </div>
         </div>
     </div>
